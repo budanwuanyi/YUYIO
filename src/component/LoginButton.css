@@ -1,0 +1,25 @@
+.LoginButton {
+    position: fixed; /* 按钮位置相对于浏览器窗口固定 */
+    z-index: 1000;    
+    top: 40px;
+    right: 80px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #66B2FF; /* 背景颜色改为暗蓝色 */
+    color: black; /* 字体颜色改为黑色 */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold; /* 字体加粗 */
+    font-style: italic; /* 字体倾斜 */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.LoginButton:hover {
+    background-color: #66B2FF; /* 鼠标悬停时的背景颜色，这是一个比暗蓝色更深的蓝色 */
+}
+
+.LoginButton:active {
+    transform: scale(0.95); /* 缩小按钮的尺寸 */
+}
